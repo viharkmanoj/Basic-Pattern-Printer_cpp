@@ -4,7 +4,8 @@ A **menu-driven program** that prints up to 15 different patterns based on user 
 Basically made to refresh my c++ concepts.
 
 ## Can print the following patterns:
-- Right half pyramid                           
+- Right half pyramid        
+                  
 - Left half pyramid
 - Full pyramid
 - Inverted right half pyramid
@@ -20,8 +21,16 @@ Basically made to refresh my c++ concepts.
 - Floyd's traingle
 - Pascal's triangle
 
-## How to Run
-1. Compile the program:
-   ```bash
-   `g++ pattern_printer.cpp -o pattern_printer`
----
+
+## How to Run:
+1. Just download pp.cpp on your computer
+2. Compile the program:
+```bash
+g++ pp.cpp -o pp
+   ```
+3. Run the compiled file pp
+```bash
+./pp.out
+```
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
