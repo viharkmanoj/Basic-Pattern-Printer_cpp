@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-
 //Right half pyramid 
 void right_half_pyd(){
     int n;
@@ -292,9 +291,10 @@ void pascal(){
 
 //Main
 int main(){
+    char main_choice='y';
     int choice;
     cout<<endl<<"<<<<<<<<Pattern Printer>>>>>>>>>"<<endl<<endl;
-    cout<<"Select the pattern from the following:"<<endl<<endl;
+ do{cout<<"Select the pattern from the following:"<<endl<<endl;
     cout<<R"(1.Right half pyramid                  11.Hollow full pyramid
 2.Left half pyramid                   12.Hollow inverted full pyramid
 3.Full pyramid                        13.Hollow diamond pyramid
@@ -360,6 +360,9 @@ int main(){
     default:
         break;
     }
+    cout<<"Do you want to print more patterns?(y/n):";
+    cin>>main_choice;
+    cout<<endl;}while(main_choice=='y');
 
     return 0;
 }
