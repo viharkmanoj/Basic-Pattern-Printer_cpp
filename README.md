@@ -1,4 +1,6 @@
 # Pattern Printer in C++
+<img width="500" height="250" alt="Untitled design" src="https://github.com/user-attachments/assets/e52dd3b3-06b2-4ab4-8d44-5f198e91f08f" />
+
 
 A **menu-driven program** that prints up to 15 different patterns based on user input.
 Basically made to refresh my c++ concepts.
