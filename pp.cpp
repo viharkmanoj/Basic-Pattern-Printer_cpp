@@ -269,6 +269,25 @@ void holl_diamond(){
 }
 
 //Floyd's triangle
+void floyd(){
+    cout<<"Enter the number of rows: ";
+    int n;cin>>n;
+    cout<<endl<<"Pattern:"<<endl<<endl;
+    int number=1;
+    for(int x=1;x<=n;x++){
+        for(int y=1;y<=x;y++){
+            cout<<number<<" ";
+            number++;
+        }cout<<endl;
+    }cout<<endl;
+}
+
+//Pascal's triangle
+void pascal(){
+    cout<<"Enter the number of rows: ";
+    int n;cin>>n;
+    cout<<endl<<"Pattern:"<<endl<<endl;
+}
 
 
 //Main
@@ -331,11 +350,14 @@ int main(){
     case 13:
         holl_diamond();
         break;
-
+    case 14:
+        floyd();
+        break;
+    case 15:
+        pascal();
+        break;
         
-    
-    
-        default:
+    default:
         break;
     }
 
